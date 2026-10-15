@@ -38,16 +38,17 @@
 
 import React from 'react'
 import logo from './assets/logo.png';
+import bannar from './assets/bannar.png';
 const App = () => {
   return (
     <>
       <div>
 
-       <div className='navbar'>
+       <div className='navbar' >
 <nav className='navbar-'>
   <div className="logo">
     <a href=''>
-      <img id="logo" src={logo} alt="My image" /></a>
+      <img  id="logo" src={logo} alt="My image" /></a>
   </div>
 
   <ul className='nav-menu'>
@@ -65,6 +66,20 @@ const App = () => {
        </div>
       </div>
 
+
+      {/* bannar start   */}
+
+<div className="BANNAR mt-9">
+  <img id="bannar" src={bannar} alt="Banner" />
+</div>
+{/* bannar end */}
+
+
+<div className="b-text" id="text">
+  <h1>Welcome to My Website</h1>
+  <p>Discover amazing products and explore our latest collection.</p>
+  <button>Shop Now</button>
+</div>
     
     </>
   
