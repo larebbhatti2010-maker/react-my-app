@@ -67,20 +67,17 @@ const App = () => {
       </div>
 
 
-      {/* bannar start   */}
-
+{/* Banner Start */}
 <div className="BANNAR mt-9">
   <img id="bannar" src={bannar} alt="Banner" />
-</div>
-{/* bannar end */}
 
-
-<div className="b-text" id="text">
-  <h1>Welcome to My Website</h1>
-  <p>Discover amazing products and explore our latest collection.</p>
-  <button>Shop Now</button>
+  <div className="b-text">
+    <h1>Welcome to My Website</h1>
+    <p>Discover amazing products and explore our latest collection.</p>
+    <button>Shop Now</button>
+  </div>
 </div>
-    
+{/* Banner End */}
     </>
   
   )
