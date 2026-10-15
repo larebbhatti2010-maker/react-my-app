@@ -37,16 +37,34 @@
 
 
 import React from 'react'
-
+import logo from './assets/logo.png';
 const App = () => {
   return (
     <>
       <div>
 
-        <h1>he ho</h1>
+       <div className='navbar'>
+<nav className='navbar-'>
+  <div className="logo">
+    <a href=''>
+      <img id="logo" src={logo} alt="My image" /></a>
+  </div>
+
+  <ul className='nav-menu'>
+
+    <li><a href=''>Home</a></li>
+    <li><a href=''>New Arrivals</a></li>
+    <li><a href=''>Sale</a></li>
+    <li><a href=''>Collections</a></li>
+
+  </ul>
+
+</nav>
+
+
+       </div>
       </div>
 
-      <h1>he he he </h1>
     
     </>
   
